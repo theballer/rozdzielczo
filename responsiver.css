@@ -1,0 +1,33 @@
+@media screen and (min-width: 1170px) {
+    #header {
+        width: 100%;
+    }
+    #header #text-header {
+        text-align: left;
+        top: 50%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1170px) {
+    #header #text-header {
+        right: 0;
+        top: 0;
+    }
+    #header {
+        width: 100vw;
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #header {
+        height: 50vh;
+    }
+    #header #text-header {
+        text-align: center;
+        left: 0;
+        right: 0;
+        top: 110%;
+        color: black;
+    }
+}
